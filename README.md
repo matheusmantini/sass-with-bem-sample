@@ -1,4 +1,4 @@
-<h1 align="center"> Projeto Space Tourism Multi Page Website </h1>
+<h1 align="center"> Projeto SASS and BEM Sample </h1>
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
