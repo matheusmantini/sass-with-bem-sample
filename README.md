@@ -16,10 +16,6 @@
   - Card,
   - Button.
 
-## Deploy da Aplicação na vercel
-
-> https://fm-space-tourism-multi-page-website.vercel.app/
-
 ## Como rodar a aplicação:
 
 1. No terminal, clone o projeto:
