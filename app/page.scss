@@ -1,0 +1,28 @@
+@import "./mixins.scss";
+
+.wrapper {
+  box-sizing: border-box;
+}
+
+.list-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+
+  @include mobile {
+    padding: 20px;
+  }
+}
+
+.actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}

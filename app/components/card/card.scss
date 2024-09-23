@@ -1,0 +1,35 @@
+@import "../../mixins.scss";
+
+.card {
+  flex-basis: 30%;
+  max-width: 350px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
+  @include mobile {
+    flex-basis: 100%;
+    max-width: none;
+  }
+
+  &__header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &__content {
+    padding: 16px;
+    text-align: center;
+  }
+
+  &__footer {
+    background-color: #f4f4f4;
+    padding: 8px;
+    text-align: center;
+  }
+}

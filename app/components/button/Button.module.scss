@@ -1,0 +1,58 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  > svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+  }
+
+  &:hover {
+    background-color: #696969;
+    color: white;
+  }
+
+  &--rounded {
+    border-radius: 8px;
+  }
+
+  &--outlined {
+    background-color: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+
+    &:hover {
+      background-color: #007bff;
+      color: white;
+    }
+  }
+
+  &--small {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  &--large {
+    padding: 20px 40px;
+    font-size: 18px;
+  }
+
+  &--clicked {
+    background-color: #007bff;
+    color: white;
+  }
+
+  &--hover {
+    &:hover {
+      background-color: #007bff;
+      color: white;
+    }
+  }
+}

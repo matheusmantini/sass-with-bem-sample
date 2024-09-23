@@ -1,37 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center"> Projeto Space Tourism Multi Page Website </h1>
 
-## Getting Started
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NEXT](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
-First, run the development server:
+<p align="center"><i>Status do Projeto</i>: <b>Concluido</b></p> 
+    
+## Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- O projeto conta com exemplos básicos de utilização da arquitetura de css BEM ('Block, Element, Modifier') em conjunto com SASS.
+- Foram criados 3 componentes distintos, sendo eles:
+  - Header,
+  - Card,
+  - Button.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy da Aplicação na vercel
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+> https://fm-space-tourism-multi-page-website.vercel.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Como rodar a aplicação:
 
-## Learn More
+1. No terminal, clone o projeto:
 
-To learn more about Next.js, take a look at the following resources:
+   > git clone https://github.com/matheusmantini/fm-space-tourism-multi-page-website.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Entre na pasta do projeto:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   > cd fm-space-tourism-multi-page-website
 
-## Deploy on Vercel
+3. Instale as dependências:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   > npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# sass-with-bem-sample
+4. Execute a aplicação:
+
+   > npm run start
+
+5. Pronto, agora é possível acessar a aplicação a partir da rota http://localhost:3000/
+
+## Desenvolvedor
+
+| [<img src="https://avatars.githubusercontent.com/u/71985890?v=4" width=115 > <br> <sub> Matheus Mantini </sub>](https://www.linkedin.com/in/matheusmantini/) |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
