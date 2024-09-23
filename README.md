@@ -20,11 +20,11 @@
 
 1. No terminal, clone o projeto:
 
-   > git clone https://github.com/matheusmantini/fm-space-tourism-multi-page-website.git
+   > git clone https://github.com/matheusmantini/sass-with-bem-sample.git
 
 2. Entre na pasta do projeto:
 
-   > cd fm-space-tourism-multi-page-website
+   > cd sass-with-bem-sample
 
 3. Instale as dependências:
 
